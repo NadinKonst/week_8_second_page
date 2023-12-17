@@ -1,0 +1,28 @@
+.header-row {
+  max-width: 1440px;
+  height: 40px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  .logo-row__logotip {
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-bottom: 89px;
+    width: 201px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .logo-row__button {
+    margin-top: 50px;
+    margin-right: 74px;
+    width: 115px;
+    height: 38px;
+    border-radius: 100px;
+    border-color: $colorButton;
+    background-color: $colorButton;
+    color: white;
+  }
+}

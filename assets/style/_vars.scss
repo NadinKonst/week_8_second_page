@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Intro";
+  src: url(/fonts/IntroDemoCond-BlackCAPS.otf) format("opentype");
+}
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(/fonts/RobotoSlab-VariableFont_wght.ttf) format ("truetype");
+}
+
+$colorButton: #5222d0;
+%card-block-title {
+  color: #000;
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+%card-block-text {
+  color: #000;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}

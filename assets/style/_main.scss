@@ -1,0 +1,98 @@
+.main-title {
+  color: #000;
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-left: 125px;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  .main-card {
+    margin-top: 20px;
+    width: 400px;
+    height: 450x;
+    border: 1px solid red;
+    gap: 87px;
+    padding: 10px;
+  }
+  .main-card__icon {
+    margin-bottom: 50px;
+    width: 380px;
+    height: 233px;
+    flex-shrink: 0;
+    background: #ec615b;
+  }
+  .main-card__title {
+    @extend %card-block-title;
+  }
+  .main-card__text {
+    margin-top: 10px;
+    @extend %card-block-text;
+  }
+}
+
+.main-blocks {
+  display: flex;
+  justify-content: space-evenly;
+  .main-block {
+    width: 400px;
+    height: 259px;
+    flex-shrink: 0;
+    border: 1px solid red;
+    gap: 87px;
+    margin-top: 25px;
+  }
+  .main-block-news {
+    background-color: #ec615b;
+  }
+  .main-block__title {
+    margin-top: 20px;
+    padding: 10px;
+    @extend %card-block-title;
+  }
+  .main-block__text {
+    margin-top: 20px;
+    padding: 10px;
+    @extend %card-block-text;
+  }
+  .main-block-news__title {
+    margin-top: 20px;
+    padding: 10px;
+    color: #fff;
+    font-family: Intro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .form__email {
+    margin-left: 20px;
+    width: 323px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #fff;
+    color: #000;
+    @extend %card-block-text;
+  }
+  .main-block-news__button {
+    width: 135px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 33px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: $colorButton;
+    color: #fff;
+    font-family: "Intro", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
